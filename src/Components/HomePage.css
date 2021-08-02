@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  background: white;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+}
+
+.home_container {
+  width: 100%;
+  overflow: hidden;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  color: #f9a528;
+  background: transparent;
+}
+
+section header {
+  width: 50%;
+  margin: auto;
+  text-emphasis: center;
+  margin-top: 10%;
+}
+
+section header h3 {
+  font-size: 45px;
+  padding: 10px;
+}
+
+section h1 {
+  font-family: "Lobster", cursive;
+  font-size: 72px;
+  position: relative;
+  z-index: 9;
+  background: transparent;
+}
+
+section header p {
+  position: relative;
+  z-index: 9;
+  background: transparent;
+}
+
+section header.first_part {
+  position: relative;
+}
+
+.first_part .box {
+  width: 500px;
+  height: 500px;
+  background: transparent;
+  border: 15px solid black;
+  transform: rotateZ(65deg);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.img {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+}
+
+.img img {
+  width: 20%;
+  position: absolute;
+  top: -10%;
+  left: 37%;
+  z-index: 9;
+}
+
+.home_container section.third_part {
+  position: relative;
+}
+
+.ball {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: black;
+  position: absolute;
+  top: 0px;
+}
+
+.ball.one {
+  top: 40%;
+}
+
+.ball:nth-child(2) {
+  width: 200px;
+  height: 200px;
+  background: wheat;
+}
+
+.ball.three {
+  position: absolute;
+  right: 0px;
+  top: 50px;
+  width: 300px;
+  height: 300px;
+  background: white;
+}
+
+.third_part p {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  background: transparent;
+  text-align: center;
+  font-size: 40px;
+}
